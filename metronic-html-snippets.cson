@@ -1,7 +1,14 @@
+# Begin: html language cson scope
+# Dicantumkan hanya sekali pada satu file
 '.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin':
+  # Begin: metronic portlet snippets
   'Metronic Portlet':
     'prefix': 'portlet'
     'body': '\n<!-- BEGIN: -->\n<div class="portlet light bordered">\n\t<div class="portlet-title">\n\t\t<div class="caption">\n\t\t\t<i class="fa fa-user font-blue-sharp"></i>\n\t\t\t<span class="uppercase font-blue-sharp">${1:portlet title}</span>\n\t\t</div>\n\t</div>\n\t<div class="portlet-body">\n\t\t$2\n\t</div>\n</div>\n<!-- END: -->\n'
+  # End: metronic portlet snippets
+  # Begin: metronic panel snippets
   'Metronic Panel':
     'prefix': 'panel'
     'body': '\n<!-- BEGIN: -->\n<div class="panel panel-default">\n\t<div class="panel-heading">\n\t\t<h3 class="panel-title">${1:panel title}</h3>\n\t</div>\n\t<div class="panel-body">\n\t\t$2\n\t</div>\n</div>\n<!-- END: -->\n'
+  # End: metronic panel snippets
+# End: html language cson scope
